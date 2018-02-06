@@ -2,3 +2,4 @@
 node_modules/
 testcafe-example.iml
 *.js
+screenshots/
