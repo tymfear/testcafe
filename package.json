@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe"
+    "test": "testcafe",
+    "ts-node": "ts-node"
   },
   "keywords": [
     "testcafe",
@@ -13,6 +14,11 @@
   "author": "Tymur Daudov",
   "license": "ISC",
   "dependencies": {
-    "testcafe": "^0.18.6"
+    "@types/command-line-args": "^4.0.2",
+    "@types/minimist": "^1.2.0",
+    "command-line-args": "^5.0.1",
+    "minimist": "^1.2.0",
+    "testcafe": "^0.18.6",
+    "ts-node": "^4.1.0"
   }
 }
